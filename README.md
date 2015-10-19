@@ -1,3 +1,22 @@
+##Left Nav Bar
+<nav ng-controller="MainNavController"
+			class="navbar-default navbar-static-side" role="navigation">
+			<div class="sidebar-collapse">
+				<ul class="nav" id="side-menu">
+
+					<li class="active"><a ng-click="goHome()"><i
+							class="fa fa-th-large"></i><span id="subMenuLabel"
+							class="nav-label">Login</span></a></li>
+
+				</ul>
+			</div>
+		</nav>
+		
+		
+
+
+
+
 # temp
 
 <form action='' method='POST'><table>
